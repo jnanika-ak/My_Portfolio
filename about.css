@@ -1,0 +1,119 @@
+/* About portrait and expanded profile cards */
+.about-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, .85fr) 220px;
+  gap: 38px;
+}
+
+.about-portrait {
+  position: relative;
+  align-self: stretch;
+  min-height: 285px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line-bright);
+  background: #151a1d;
+  isolation: isolate;
+}
+
+.about-portrait::after {
+  content: "";
+  position: absolute;
+  inset: 45% 0 0;
+  z-index: 0;
+  background: linear-gradient(transparent, rgba(7, 10, 13, .92));
+  pointer-events: none;
+}
+
+.about-portrait img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 24%;
+}
+
+.about-portrait figcaption {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  bottom: 12px;
+  left: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: #eef2ef;
+  font: 8px 'DM Mono', monospace;
+  letter-spacing: 1px;
+}
+
+.about-portrait figcaption span:last-child {
+  color: #9daaa8;
+  font-size: 7px;
+}
+
+.stat-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.stat-card {
+  padding-right: 19px;
+  padding-left: 19px;
+}
+
+.stat-card:last-child .stat-words {
+  font-size: 19px;
+  line-height: 1.2;
+}
+
+@media (max-width: 1050px) {
+  .about-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 180px;
+    gap: 23px;
+  }
+
+  .about-portrait {
+    min-height: 270px;
+  }
+
+  .stat-card {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .stat-words {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: "title" "portrait" "copy";
+    gap: 18px;
+    padding: 34px 0;
+  }
+
+  .about-grid > h2 { grid-area: title; }
+  .about-copy { grid-area: copy; }
+
+  .about-portrait {
+    grid-area: portrait;
+    justify-self: center;
+    width: min(100%, 205px);
+    min-height: 0;
+    aspect-ratio: .84 / 1;
+  }
+
+  .stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .stat-card:last-child .stat-words {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+  .stat-card:last-child .stat-words { font-size: 16px; }
+}
