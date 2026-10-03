@@ -95,6 +95,7 @@ I am interested in opportunities related to:
 
 ### Email
 **jnanikaak@gmail.com**
+jnanikaakjnanikaak@gmail.com
 
 ---
 
