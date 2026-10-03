@@ -6,7 +6,7 @@ This portfolio showcases my **skills, projects, certifications, education, and p
 
 ## 👩‍💻 About Me
 
-I'm a Computer Science Engineering student with an interest in **Data Analytics, Artificial Intelligence, Machine Learning, and Software Development**.
+I'm a B tech Computer Science Engineering student with an interest in **Data Analytics, Artificial Intelligence, Machine Learning, and Software Development**.
 
 I enjoy building practical projects, working with data, learning new technologies, and solving real-world problems through technology.
 
@@ -95,7 +95,7 @@ I am interested in opportunities related to:
 
 ### Email
 **jnanikaak@gmail.com**
-jnanikaakjnanikaak@gmail.com
+
 
 ---
 
