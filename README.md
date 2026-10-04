@@ -107,6 +107,6 @@ I'm continuously learning and improving my skills by building projects and explo
 
 ---
 
-### 💙 Thank you for visiting my portfolio!
+### 💙 Thank you for visiting my portfolio!!!!
 
 **Jnanika A K**
