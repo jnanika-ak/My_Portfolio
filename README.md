@@ -1,6 +1,6 @@
 # 🌐 Jnanika A K - Personal Portfolio
 
-Welcome to my personal portfolio website! 👋
+Welcome to my personal portfolio website! I'm happy to share this👋
 
 This portfolio showcases my **skills, projects, certifications, education, and professional journey** as a Computer Science Engineering student.
 
