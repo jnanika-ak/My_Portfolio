@@ -75,6 +75,24 @@ The portfolio is designed to provide a smooth experience across:
 - 📱 Mobile
 - 📲 Tablet
 
+- ### 🚀 CareerIQ — AI-Powered Job Intelligence & Career Copilot
+
+A full-stack career intelligence platform that analyzes resumes, matches candidates with job descriptions, identifies skill gaps, recommends suitable career paths, and generates personalized learning roadmaps with interview readiness insights.
+
+**Tech Stack:** React, Vite, Python, FastAPI, PostgreSQL, SQLAlchemy
+
+**Key Features:**
+- Resume upload and intelligent profile extraction
+- Job description analysis and resume-to-job matching
+- Skill gap analysis and career recommendations
+- Personalized learning roadmap
+- Interview readiness assessment
+- Persistent database and analysis history
+
+🔗 **Live Demo:** https://career-iq-ten.vercel.app
+
+💻 **GitHub Repository:** https://github.com/jnanika-ak/CareerIQ
+
 ## 🎯 Career Interests
 
 I am interested in opportunities related to:
