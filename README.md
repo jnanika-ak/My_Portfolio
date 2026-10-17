@@ -17,7 +17,7 @@ I enjoy building practical projects, working with data, learning new technologie
 - 📊 Data Analytics Projects
 - 🤖 AI & Machine Learning Projects
 - 📜 Certifications
-- 🎓 Education
+- 🎓 Education/Qualification
 - 💼 Experience & Activities
 - 📬 Contact Information
 
@@ -113,6 +113,7 @@ I am interested in opportunities related to:
 
 ### Email
 **jnanikaak@gmail.com**
+**jnanikaakjnanikaak@gmail.com**
 
 
 ---
