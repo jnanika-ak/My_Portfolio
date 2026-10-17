@@ -112,7 +112,9 @@ I am interested in opportunities related to:
 [Visit my GitHub](https://github.com/jnanika-ak)
 
 ### Email
+
 **jnanikaak@gmail.com**
+
 **jnanikaakjnanikaak@gmail.com**
 
 
